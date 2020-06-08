@@ -1,6 +1,6 @@
 {
   "name": "@leapy/render-engine",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "The workflow renderer for Leapy",
   "author": "monkey-programmer",
   "license": "MIT",
