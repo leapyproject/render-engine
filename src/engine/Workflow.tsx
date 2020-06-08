@@ -118,7 +118,12 @@ function Workflow(
 
   return (
     <RendererContext.Provider value={ options }>
-      <svg ref={ ref } style={ options.svgStyle }>
+      <svg
+        ref={ ref }
+        style={ options.svgStyle }
+        xmlns='http://www.w3.org/2000/svg'
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
         <defs>
           <Arrow
             id='marker-highlighted-false'
